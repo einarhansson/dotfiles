@@ -1,0 +1,19 @@
+<//z><<,.//?\# Motorsettings
+input 
+	kb_layout = us
+	follow_mouse = 1
+}
+
+# Some default env vars
+env = XCURSOR_SIZE,24
+
+# Basic window behavior
+general {
+	gaps_in = 5
+	gaps_out = 10
+	col.active_border = rgba(33ccffee)
+	col.inactive_border = rgba(595959aa)
+}
+
+# Essential keybinds
+bind = SUPER, Return, exec, kitty # Termina
